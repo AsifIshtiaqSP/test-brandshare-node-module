@@ -1,6 +1,6 @@
 {
   "name": "brandshare-models",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a module for all common models and methods for brandshare.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,11 +10,10 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
-
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "brandshare"
