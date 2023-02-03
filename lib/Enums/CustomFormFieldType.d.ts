@@ -1,0 +1,22 @@
+export declare enum CustomFormFieldType {
+    LookupSingle = 1,
+    SystemSingleSegment = 2,
+    SystemMultipleSegment = 3,
+    SystemSingleCountry = 4,
+    SystemMultipleCountry = 5,
+    TextSingleLine = 6,
+    TextMultiLine = 7,
+    Number = 8,
+    Date = 9,
+    Boolean = 10,
+    User = 11,
+    SystemName = 12,
+    ActivityReference = 13,
+    InheritedField = 14,
+    LookupMultiple = 15,
+    MultipleUser = 16,
+    DynamicMediator = 17,
+    DateTime = 18,
+    Header = 19,
+    CalculatedField = 20
+}
